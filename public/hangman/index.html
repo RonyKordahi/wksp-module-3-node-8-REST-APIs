@@ -5,9 +5,17 @@
     <style>
     </style>
 </head>
-<body>
+<body class="fullBody">
     <div class="content">
-        time to get to hanging.... I mean guessing...
+        <h1>Time to get to hanging.... I mean guessing...</h1>
+    </div>
+    <div class="button-container">
+        <form id="start-game" onsubmit="startGame(event)">
+            <button id="start-button" type="submit" class="start-button">Start game</button>
+        </form>
+    </div>
+    <div id="game-screen">
+        <!-- span will be appended by scripts.js that contains the word to be guessed -->
     </div>
     <script src="scripts.js"></script>
 </body>
